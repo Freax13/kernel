@@ -117,9 +117,8 @@ dependencies = [
 
 [[package]]
 name = "bootloader"
-version = "0.10.10"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "139ac6df0135b3beae225d7b8fb970c188941b5cad088f2e2f93463286281750"
+version = "0.10.11"
+source = "git+https://github.com/rust-osdev/bootloader#fa617315a4c01ed31e8593d5848e7d302ebf9fe8"
 
 [[package]]
 name = "buddy_system_allocator"

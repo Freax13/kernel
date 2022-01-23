@@ -9,7 +9,7 @@ spin = { version = "0.9.2", features = ["ticket_mutex"] }
 x86_64 = "0.14.7"
 voladdress = "1.0.2"
 async-recursion = "0.3.2"
-bootloader = "0.10.10"
+bootloader = { git = "https://github.com/rust-osdev/bootloader" }
 
 [dependencies.byteorder]
 default-features = false
